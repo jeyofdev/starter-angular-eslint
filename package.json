@@ -1,14 +1,32 @@
 {
   "name": "starter-angular-eslint",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeyofdev/starter-angular-eslint.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "angular",
+    "eslint",
+    "prettier",
+    "typescript",
+    "husky"
+  ],
+  "author": "jeyofdev <jgregoire.pro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeyofdev/starter-angular-eslint.git/issues"
+  },
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
