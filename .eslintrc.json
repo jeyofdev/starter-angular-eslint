@@ -6,7 +6,6 @@
 			"files": ["*.ts"],
 			"parserOptions": {
 				"project": ["tsconfig.*?.json"],
-				"sourceType": "module",
 				"createDefaultProgram": true
 			},
 			"extends": [
@@ -15,14 +14,25 @@
 				"plugin:@angular-eslint/template/process-inline-templates",
 				"airbnb-typescript/base",
 				"eslint-config-prettier",
-				"plugin:prettier/recommended"
+				"plugin:prettier/recommended",
+				"plugin:import/recommended"
 			],
-			"rules": {}
+			"settings": {
+				"import/resolver": {
+					"typescript": {
+						"alwaysTryTypes": true,
+						"project": ["path/to/tsconfig.json"]
+					}
+				}
+			},
+			"rules": {
+				"no-console": "warn"
+			}
 		},
 		{
 			"files": ["*.html"],
 			"extends": ["plugin:@angular-eslint/template/recommended"],
-			"rules": {}
+			"rules": { "max-len": ["error", { "code": 140 }] }
 		},
 		{
 			"files": ["*.component.ts"],
