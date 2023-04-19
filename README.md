@@ -1,5 +1,10 @@
 # Starter Angular application
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/46073105/233123282-484ac571-79b3-4b6f-955e-72c990954a69.jpg" width="60%">
+</div>
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ### Tools
