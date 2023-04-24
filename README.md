@@ -1,15 +1,14 @@
 # Starter Angular application
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/46073105/233123282-484ac571-79b3-4b6f-955e-72c990954a69.jpg" width="60%">
+  <img src="https://user-images.githubusercontent.com/46073105/234071004-6870f28e-b52e-42cb-aa51-f6f6d586f47d.png" width="60%">
+  <p>Setting up a project generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.</p>
 </div>
-
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ### Tools
 
 - [Angular](https://angular.io/) Angular 15.2.4.
+- [Typescript](https://www.typescriptlang.org/) JavaScript with syntax for types.
 - [ESLint](https://eslint.org/) Find and fix problems in JavaScript and typescript code.
 - [Prettier](https://prettier.io/) Code formatter.
 - [husky](https://typicode.github.io/husky) Husky improves your commits
